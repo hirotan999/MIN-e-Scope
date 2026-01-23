@@ -1,0 +1,66 @@
+WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 35
+
+This Android Gradle plugin (8.1.0) was tested up to compileSdk = 33 (and compileSdkPreview = "UpsideDownCakePrivacySandbox").
+
+You are strongly encouraged to update your project to use a newer
+Android Gradle plugin that has been tested with compileSdk = 35.
+
+If you are already using the latest version of the Android Gradle plugin,
+you may need to wait until a newer version with support for compileSdk = 35 is available.
+
+To suppress this warning, add/update
+    android.suppressUnsupportedCompileSdk=34,35
+to this project's gradle.properties.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:packageReleaseResources UP-TO-DATE
+> Task :app:parseReleaseLocalResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :app:processReleaseMainManifest UP-TO-DATE
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage UP-TO-DATE
+> Task :app:processReleaseResources
+
+> Task :app:compileReleaseKotlin FAILED
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MainActivity.kt:22:68 Unresolved reference: installSplashScreen
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:198:2 Missing '}
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:45:32 Unresolved reference: isAdAvailable
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:78:5 'onStart' overrides nothing
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:80:30 Unresolved reference: showAdIfAvailable
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:84:5 'onActivityCreated' overrides nothing
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:86:5 'onActivityStarted' overrides nothing
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:90:5 'onActivityResumed' overrides nothing
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:94:5 'onActivityPaused' overrides nothing
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:96:5 'onActivityStopped' overrides nothing
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:98:5 'onActivitySaveInstanceState' overrides nothing
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:100:5 'onActivityDestroyed' overrides nothing
+e: file:///C:/app/Antigravity/tool/MIN-e%20Scope/app/src/main/java/com/minescope/app/MyApplication.kt:104:5 Interface is not allowed here
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileReleaseKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.5/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+14 actionable tasks: 4 executed, 10 up-to-date
