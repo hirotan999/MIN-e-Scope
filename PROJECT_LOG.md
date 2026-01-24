@@ -653,3 +653,24 @@
   2. **ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚³ãƒ¼ãƒ‰**: `270` (v1.2.9) ã«è¨­å®šã€‚
 - **çµæžœ**:
   - ç½²åä»˜ãAAB (`MIN-e_Scope_v1.2.9_20260123_1417-release.aab`) ã®ç”Ÿæˆã«æˆåŠŸã€‚
+
+### ƒo[ƒWƒ‡ƒ“XVƒrƒ‹ƒh (v1.2.10) - ƒNƒ[ƒYƒhƒeƒXƒgŒü‚¯
+
+- **“úŽž**: 2026-01-24 09:27
+- **ŽwŽ¦**:
+  1. ƒNƒ[ƒYƒhƒeƒXƒg—p‚ÉƒAƒbƒvƒrƒ‹ƒh‚ðŽÀŽ{B
+- **ŽÀŽ{“à—e**:
+  1. **ƒo[ƒWƒ‡ƒ“XV**: ersionCode 280, ersionName "1.2.10" ‚ÉXVB
+  2. **ƒNƒŠ[ƒ“ƒŠƒŠ[ƒXƒrƒ‹ƒh**: ./gradlew clean --no-build-cache bundleRelease ‚ðŽÀsB
+- **Œ‹‰Ê**:
+  - –¼•t‚«AAB (MIN-e_Scope_v1.2.10_...-release.aab) ‚Ì¶¬‚É¬Œ÷B
+
+
+## v1.2.11 (2026-01-24 19:30)
+- **æŒ‡ç¤º**: ã‚¯ãƒ­ãƒ¼ã‚ºãƒ‰ãƒ†ã‚¹ãƒˆã«å›žã™ã®ã§ã‚¢ãƒƒãƒ—ãƒ“ãƒ«ãƒ‰
+- **å¯¾å‡¦**: 
+    - pp/build.gradle.ktsã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’1.2.11 (281)ã«æ›´æ–°ã€‚
+    - PROJECT_LOG.mdã«ãƒ­ã‚°ã‚’è¿½è¨˜ã€‚
+    - ãƒãƒ¼ãƒ‰ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã‚¯ãƒªã‚¢(clean)ã¨undleReleaseã‚’å®Ÿè¡Œã€‚
+- **çµæžœ**: ãƒ“ãƒ«ãƒ‰å®Œäº†å¾…ã¡ã€‚
+
