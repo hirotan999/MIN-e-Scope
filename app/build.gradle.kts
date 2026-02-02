@@ -15,8 +15,8 @@ android {
         applicationId = "com.minescope.app"
         minSdk = 24
         targetSdk = 35
-        versionCode = 281
-        versionName = "1.2.11"
+        versionCode = 283
+        versionName = "1.2.13"
         setProperty("archivesBaseName", "MIN-e_Scope_v${versionName}_${SimpleDateFormat("yyyyMMdd_HHmm").format(Date())}")
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
