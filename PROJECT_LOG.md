@@ -722,3 +722,34 @@ app-ads.txt �̐ݒ�ƃh���C���F�؂̊���
 
 ### ����
 Vercel��ł̔��f�҂��B
+
+## 2026-02-03 12:55
+### 指示
+ストアに掲載するurlは？
+
+### 対応
+app/build.gradle.ktsを確認しApplication IDを取得。privacy-policyフォルダ構成を確認。
+
+### 結果
+アプリURL (com.minescope.app) とプライバシーポリシーURL (Vercel) を提示。
+
+
+## 2026-02-03 13:02
+### 指示
+app-ads.txtはどこから見れるの？
+
+### 対応
+privacy-policy/app-ads.txt のパスと公開URLを回答。
+
+### 結果
+案内完了。
+
+
+## 2026-02-06 16:55
+### app-ads.txt 構成確認
+- **指示**: AdMob 用の app-ads.txt の設定を確認し、必要に応じて修正する。
+- **対応**: 
+    - privacy-policy/app-ads.txt に正しい AdMob ID が含まれていることを確認。
+    - privacy-policy/vercel.json の設定を確認。
+    - pp-ads.txt が git 管理下にあることを確認。
+- **結果**: 構成が正しいことを確認。再デプロイのためログを更新してプッシュ。
